@@ -1,0 +1,15 @@
+var a = 2;
+var b = 3;
+var result;
+result = (a & b);
+console.log("result :" + result);
+result = (a | b);
+console.log("result :" + result);
+result = (a ^ b);
+console.log("result :" + result);
+result = (~b);
+console.log("result :" + result);
+result = (a << b);
+console.log("result :" + result);
+result = (a >> b);
+console.log("result :" + result);
